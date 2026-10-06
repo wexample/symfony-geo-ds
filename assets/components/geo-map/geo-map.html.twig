@@ -1,0 +1,12 @@
+{#- A map, drawn by geo-map.ts from the markers it is given as options: pins,
+    framed together, and with `route` the road joining them in order. The
+    summary below the map stays empty until a route is found; its wording is
+    handed over in data attributes, the script only fills the numbers in. -#}
+<div class="geo-map{% if class|default(null) %} {{ class }}{% endif %}"
+     {%- if height|default(null) %} style="--geo-map-height: {{ height }}"{% endif %}>
+    <div class="geo-map--canvas" role="region" aria-label="{{ '@component::label' | trans }}"></div>
+    <p class="geo-map--route"
+       hidden
+       data-route-summary="{{ '@component::route.summary' | trans }}"
+       data-route-failed="{{ '@component::route.failed' | trans }}"></p>
+</div>

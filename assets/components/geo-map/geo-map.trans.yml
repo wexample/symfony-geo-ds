@@ -1,0 +1,11 @@
+en:
+  label: Map
+  route:
+    summary: '{distance} by road, about {duration}'
+    failed: No route could be found between these places.
+
+fr:
+  label: Carte
+  route:
+    summary: '{distance} par la route, environ {duration}'
+    failed: Aucun itinéraire trouvé entre ces lieux.

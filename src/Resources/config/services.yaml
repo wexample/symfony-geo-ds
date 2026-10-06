@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyGeoDs\Twig\:
+        resource: '../../Twig/'
+
+    Wexample\SymfonyGeoDs\Twig\GeoMapExtension:
+        arguments:
+            $styleUrl: '%wexample_symfony_geo_ds.map.style_url%'
+            $routingUrl: '%wexample_symfony_geo_ds.routing.url%'
+            $routingProfile: '%wexample_symfony_geo_ds.routing.profile%'

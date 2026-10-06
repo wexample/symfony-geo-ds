@@ -1,0 +1,41 @@
+// The map takes the width it is given and a height of its own, which a
+// page sets through --geo-map-height. MapLibre's own sheet comes first: its
+// controls and popups, restyled below only where they clash with the system.
+@use 'maplibre-gl/dist/maplibre-gl';
+
+.geo-map {
+  --geo-map-height: 24rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.geo-map--canvas {
+  height: var(--geo-map-height);
+  border: var(--border-default);
+  border-radius: var(--radius-box);
+  overflow: hidden;
+}
+
+.geo-map--route {
+  margin: 0;
+  color: var(--text-color-muted);
+  font-size: var(--font-size-2);
+}
+
+.geo-map .maplibregl-popup-content {
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-box);
+  box-shadow: var(--shadow-float);
+  color: var(--text-color-default);
+  background: var(--surface-1);
+  font-size: var(--font-size-2);
+}
+
+.geo-map .maplibregl-popup-tip {
+  display: none;
+}
+
+.geo-map .maplibregl-popup-content a {
+  color: var(--color-link);
+}

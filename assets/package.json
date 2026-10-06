@@ -1,0 +1,7 @@
+{
+  "name": "@wexample/symfony-geo-ds",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "maplibre-gl": "^5.0.0"
+  }
+}
