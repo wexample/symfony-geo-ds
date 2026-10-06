@@ -1,10 +1,13 @@
 # symfony-geo-ds
 
-Version: 1.0.1
+Version: 2.0.0
+
+Design-system side of symfony-geo: an open source map with pins and a route
 
 ## Table of Contents
 
 - [Integration in the Suite](#integration-in-the-suite)
+- [Dependencies](#dependencies)
 - [Versioning & Compatibility Policy](#versioning--compatibility-policy)
 - [License](#license)
 - [About us](#about-us)
@@ -19,6 +22,14 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
 Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
+
+## Dependencies
+
+- php: >=8.5
+- wexample/symfony-design-system: >=31.0.0
+- wexample/symfony-geo: >=5.0.0
+- wexample/symfony-helpers: >=15.0.0
+- wexample/symfony-loader: >=21.0.0
 
 ## Versioning & Compatibility Policy
 

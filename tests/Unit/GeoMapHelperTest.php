@@ -12,13 +12,13 @@ class GeoMapHelperTest extends TestCase
 {
     public function testMarkers(): void
     {
-        $located = (new class() extends AbstractAddress {
+        $located = (new class () extends AbstractAddress {
         })
             ->setPostalAddress('Grand-Place')
             ->setPostCode('1000')
             ->setCity('Bruxelles')
             ->setGeoPoint(new GeoPoint(50.8467, 4.3525));
-        $notLocated = (new class() extends AbstractAddress {
+        $notLocated = (new class () extends AbstractAddress {
         })->setCity('Nowhere');
 
         $this->assertSame([
