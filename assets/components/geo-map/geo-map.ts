@@ -1,4 +1,6 @@
 import Component from '@wexample/symfony-loader/js/Class/Component';
+import LazyActivationMixin from '@wexample/symfony-loader/js/Class/Mixins/LazyActivationMixin';
+import { AssetsServiceEvents } from '@wexample/symfony-loader/js/Services/AssetsService';
 import maplibregl from 'maplibre-gl';
 import type { Map as MapLibreMap, Marker } from 'maplibre-gl';
 
@@ -40,8 +42,16 @@ export default class extends Component {
   private markers: Marker[] = [];
   private routeRequest?: AbortController;
 
+  // A map is a library to start: it waits to be seen (`lazy: false` on a call
+  // to draw it at once).
+  async init() {
+    LazyActivationMixin.apply(this);
+    await super.init();
+  }
+
   protected async activateListeners(): Promise<void> {
     await super.activateListeners();
+    this.app.services.events.listen(AssetsServiceEvents.USAGE_CHANGE, this.onUsageChange);
 
     const canvas = this.el.querySelector<HTMLElement>('.geo-map--canvas');
 
@@ -71,6 +81,7 @@ export default class extends Component {
   }
 
   protected async deactivateListeners(): Promise<void> {
+    this.app.services.events.forget(AssetsServiceEvents.USAGE_CHANGE, this.onUsageChange);
     this.routeRequest?.abort();
     this.markers.forEach((marker) => marker.remove());
     this.markers = [];
@@ -101,6 +112,21 @@ export default class extends Component {
 
     return content;
   }
+
+  // A theme switched: the pins and the road take the new accent. A pin's
+  // colour is set when it is made, so the pins are made again.
+  private onUsageChange = (): void => {
+    if (!this.map) {
+      return;
+    }
+
+    this.markers.forEach((marker) => marker.remove());
+    this.markers = this.options.markers.map((marker) => this.addMarker(marker));
+
+    if (this.map.getLayer(ROUTE_SOURCE)) {
+      this.map.setPaintProperty(ROUTE_SOURCE, 'line-color', this.pinColor());
+    }
+  };
 
   // The accent of the design system, read where the map is drawn so that a
   // colour scheme or a theme reaches the pins too.
