@@ -7,6 +7,9 @@ services:
     Wexample\SymfonyGeoDs\Twig\:
         resource: '../../Twig/'
 
+    Wexample\SymfonyGeoDs\Form\:
+        resource: '../../Form/'
+
     Wexample\SymfonyGeoDs\Twig\GeoMapExtension:
         arguments:
             $styleUrl: '%wexample_symfony_geo_ds.map.style_url%'

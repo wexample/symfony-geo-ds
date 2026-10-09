@@ -1,0 +1,17 @@
+en:
+  first_name: First name
+  last_name: Last name
+  postal_address: Address
+  post_code: Post code
+  city: City
+  country: Country
+  country_placeholder: Choose a country
+
+fr:
+  first_name: Prénom
+  last_name: Nom
+  postal_address: Adresse
+  post_code: Code postal
+  city: Ville
+  country: Pays
+  country_placeholder: Choisir un pays

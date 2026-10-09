@@ -25,7 +25,8 @@
     "wexample/symfony-design-system": ">=32.0.0",
     "wexample/symfony-geo": ">=5.0.0",
     "wexample/symfony-helpers": ">=15.0.0",
-    "wexample/symfony-loader": ">=22.0.0"
+    "wexample/symfony-loader": ">=22.0.0",
+    "wexample/symfony-forms": ">=11.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^13"
