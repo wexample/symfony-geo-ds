@@ -1,6 +1,6 @@
 # symfony-geo-ds
 
-Version: 3.0.0
+Version: 3.0.1
 
 Design-system side of symfony-geo: an open source map with pins and a route
 
@@ -26,7 +26,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-geo: >=6.0.0
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
