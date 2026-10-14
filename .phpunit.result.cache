@@ -1,1 +1,1 @@
-{"version":2,"defects":[],"times":{"Wexample\\SymfonyGeoDs\\Tests\\Unit\\GeoMapHelperTest::testMarkers":0.008,"Wexample\\SymfonyGeoDs\\Tests\\Unit\\GeoMapHelperTest::testRejectsUnknownShapes":0}}
+{"version":2,"defects":[],"times":{"Wexample\\SymfonyGeoDs\\Tests\\Unit\\GeoMapHelperTest::testMarkers":0.004,"Wexample\\SymfonyGeoDs\\Tests\\Unit\\GeoMapHelperTest::testRejectsUnknownShapes":0}}
