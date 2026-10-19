@@ -1,0 +1,46 @@
+{
+    "common/address.zh.yml": {
+        "city": {
+            "hash": "a32457454065401eef4517e6d592b08c",
+            "engine": "syrtis"
+        },
+        "country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "country_placeholder": {
+            "hash": "b638697eaec2bed66e51828077eb20ba",
+            "engine": "syrtis"
+        },
+        "first_name": {
+            "hash": "87a7841d50d609aa351d68e2195fc13d",
+            "engine": "syrtis"
+        },
+        "last_name": {
+            "hash": "b9cba7b92bc8be4d235e3a7e758c3106",
+            "engine": "syrtis"
+        },
+        "post_code": {
+            "hash": "d5838b07eaad4e2dcacf95f9df1456b8",
+            "engine": "syrtis"
+        },
+        "postal_address": {
+            "hash": "8cfb57720071aeb3880b05bb5096f4c9",
+            "engine": "syrtis"
+        }
+    },
+    "components/geo-map/geo-map.zh.yml": {
+        "label": {
+            "hash": "695d4bf853d9f5deae0c96af3b80efcd",
+            "engine": "syrtis"
+        },
+        "route.failed": {
+            "hash": "1809c96e997dbc28c855c63f105e75f5",
+            "engine": "syrtis"
+        },
+        "route.summary": {
+            "hash": "0010537a7a68094dd41168b740a672ce",
+            "engine": "syrtis"
+        }
+    }
+}

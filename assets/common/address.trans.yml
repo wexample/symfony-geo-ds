@@ -15,3 +15,12 @@ fr:
   city: Ville
   country: Pays
   country_placeholder: Choisir un pays
+
+zh:
+  first_name: 名字
+  last_name: 姓氏
+  postal_address: 地址
+  post_code: 邮政编码
+  city: 城市
+  country: 国家
+  country_placeholder: 选择一个国家
