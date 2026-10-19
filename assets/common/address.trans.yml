@@ -24,3 +24,183 @@ zh:
   city: 城市
   country: 国家
   country_placeholder: 选择一个国家
+
+ar:
+  first_name: 'الاسم الأول'
+  last_name: 'اسم العائلة'
+  postal_address: العنوان
+  post_code: 'الرمز البريدي'
+  city: المدينة
+  country: الدولة
+  country_placeholder: 'اختر دولة'
+
+hi:
+  first_name: 'पहला नाम'
+  last_name: 'आखिरी नाम'
+  postal_address: पता
+  post_code: 'पिन कोड'
+  city: शहर
+  country: देश
+  country_placeholder: 'एक देश चुनें'
+
+he:
+  first_name: 'שם פרטי'
+  last_name: 'שם משפחה'
+  postal_address: כתובת
+  post_code: מיקוד
+  city: עיר
+  country: מדינה
+  country_placeholder: 'בחר מדינה'
+
+fa:
+  first_name: 'نام کوچک'
+  last_name: 'نام خانوادگی'
+  postal_address: آدرس
+  post_code: 'کد پستی'
+  city: شهر
+  country: کشور
+  country_placeholder: 'کشور را انتخاب کنید'
+
+ur:
+  first_name: 'پہلا نام'
+  last_name: 'آخری نام'
+  postal_address: پتہ
+  post_code: 'ڈاک کا کوڈ'
+  city: شہر
+  country: ملک
+  country_placeholder: 'ایک ملک کا انتخاب کریں'
+
+ja:
+  first_name: 名
+  last_name: 姓
+  postal_address: 住所
+  post_code: 郵便番号
+  city: 市
+  country: 国
+  country_placeholder: 国を選択
+
+ko:
+  first_name: 이름
+  last_name: 성
+  postal_address: 주소
+  post_code: 우편번호
+  city: 도시
+  country: 국가
+  country_placeholder: '국가 선택'
+
+bn:
+  first_name: 'নামের প্রথম অংশ'
+  last_name: 'নামের শেষ অংশ'
+  postal_address: ঠিকানা
+  post_code: 'পিন কোড'
+  city: শহর
+  country: দেশ
+  country_placeholder: 'একটি দেশ নির্বাচন করুন'
+
+th:
+  first_name: ชื่อจริง
+  last_name: นามสกุล
+  postal_address: ที่อยู่
+  post_code: รหัสไปรษณีย์
+  city: เมือง
+  country: ประเทศ
+  country_placeholder: เลือกประเทศ
+
+de:
+  first_name: Vorname
+  last_name: Nachname
+  postal_address: Adresse
+  post_code: Postleitzahl
+  city: Stadt
+  country: Land
+  country_placeholder: 'Wählen Sie ein Land'
+
+fi:
+  first_name: Etunimi
+  last_name: Sukunimi
+  postal_address: Osoite
+  post_code: Postinumero
+  city: Kaupunki
+  country: Maa
+  country_placeholder: 'Valitse maa'
+
+ru:
+  first_name: Имя
+  last_name: Фамилия
+  postal_address: Адрес
+  post_code: 'Почтовый индекс'
+  city: Город
+  country: Страна
+  country_placeholder: 'Выберите страну'
+
+pl:
+  first_name: Imię
+  last_name: Nazwisko
+  postal_address: Adres
+  post_code: 'Kod pocztowy'
+  city: Miasto
+  country: Kraj
+  country_placeholder: 'Wybierz kraj'
+
+es:
+  first_name: Nombre
+  last_name: Apellido
+  postal_address: Dirección
+  post_code: 'Código postal'
+  city: Ciudad
+  country: País
+  country_placeholder: 'Elige un país'
+
+it:
+  first_name: Nome
+  last_name: Cognome
+  postal_address: Indirizzo
+  post_code: 'Codice postale'
+  city: Città
+  country: Nazione
+  country_placeholder: 'Scegli un paese'
+
+pt_BR:
+  first_name: Nome
+  last_name: Sobrenome
+  postal_address: Endereço
+  post_code: 'Código postal'
+  city: Cidade
+  country: País
+  country_placeholder: 'Escolha um país'
+
+tr:
+  first_name: İsim
+  last_name: Soyisim
+  postal_address: Adres
+  post_code: 'Posta kodu'
+  city: Şehir
+  country: Ülke
+  country_placeholder: 'Bir ülke seçin'
+
+vi:
+  first_name: Họ
+  last_name: Tên
+  postal_address: 'Địa chỉ'
+  post_code: 'Mã bưu chính'
+  city: 'Thành phố'
+  country: 'Quốc gia'
+  country_placeholder: 'Chọn một quốc gia'
+
+id:
+  first_name: 'Nama depan'
+  last_name: 'Nama belakang'
+  postal_address: Alamat
+  post_code: 'Kode pos'
+  city: Kota
+  country: Negara
+  country_placeholder: 'Pilih negara'
+
+nl:
+  first_name: Voornaam
+  last_name: Achternaam
+  postal_address: Adres
+  post_code: Postcode
+  city: Stad
+  country: Land
+  country_placeholder: 'Kies een land'

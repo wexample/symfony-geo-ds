@@ -15,3 +15,123 @@ zh:
   route:
     summary: '{distance} 通过公路，大约 {duration}'
     failed: 无法找到这些地方之间的路线。
+
+ar:
+  label: الخريطة
+  route:
+    summary: '{distance} بالسيارة، حوالي {duration}'
+    failed: 'لم يتم العثور على مسار بين هذه الأماكن.'
+
+hi:
+  label: मानचित्र
+  route:
+    summary: '{distance} सड़क द्वारा, लगभग {duration}'
+    failed: 'इन स्थानों के बीच कोई मार्ग नहीं मिला।'
+
+he:
+  label: מפה
+  route:
+    summary: '{distance} בדרך, בערך {duration}'
+    failed: 'לא נמצאה דרך בין המקומות האלה.'
+
+fa:
+  label: نقشه
+  route:
+    summary: '{distance} با خودرو، حدود {duration}'
+    failed: 'مسیر مناسبی بین این مکان‌ها پیدا نشد.'
+
+ur:
+  label: نقشہ
+  route:
+    summary: '{distance} سڑک کے ذریعے، تقریباً {duration}'
+    failed: 'ان مقامات کے درمیان کوئی راستہ نہیں مل سکا۔'
+
+ja:
+  label: 地図
+  route:
+    summary: '{distance}で、約{duration}'
+    failed: これらの場所の間にルートが見つかりませんでした。
+
+ko:
+  label: 지도
+  route:
+    summary: '{distance} 도로로, 약 {duration}'
+    failed: '이 장소들 사이에 경로를 찾을 수 없습니다.'
+
+bn:
+  label: মানচিত্র
+  route:
+    summary: '{distance} রাস্তা দিয়ে, প্রায় {duration}'
+    failed: 'এই স্থানগুলির মধ্যে কোন রুট পাওয়া যায়নি।'
+
+th:
+  label: แผนที่
+  route:
+    summary: '{distance} ตามถนน, ประมาณ {duration}'
+    failed: ไม่พบเส้นทางระหว่างสถานที่เหล่านี้.
+
+de:
+  label: Karte
+  route:
+    summary: '{distance} auf der Straße, etwa {duration}'
+    failed: 'Es konnte keine Route zwischen diesen Orten gefunden werden.'
+
+fi:
+  label: Kartta
+  route:
+    summary: '{distance} tiellä, noin {duration}'
+    failed: 'Reittiä ei löytynyt näiden paikkojen välillä.'
+
+ru:
+  label: Карта
+  route:
+    summary: '{distance} по дороге, примерно {duration}'
+    failed: 'Не удалось найти маршрут между этими местами.'
+
+pl:
+  label: Mapa
+  route:
+    summary: '{distance} drogą, około {duration}'
+    failed: 'Nie znaleziono trasy między tymi miejscami.'
+
+es:
+  label: Mapa
+  route:
+    summary: '{distance} por carretera, aproximadamente {duration}'
+    failed: 'No se pudo encontrar una ruta entre estos lugares.'
+
+it:
+  label: Mappa
+  route:
+    summary: '{distance} su strada, circa {duration}'
+    failed: 'Nessun percorso trovato tra questi luoghi.'
+
+pt_BR:
+  label: Mapa
+  route:
+    summary: '{distance} por estrada, cerca de {duration}'
+    failed: 'Nenhuma rota pôde ser encontrada entre esses locais.'
+
+tr:
+  label: Harita
+  route:
+    summary: '{distance} yol ile, yaklaşık {duration}'
+    failed: 'Bu yerler arasında bir rota bulunamadı.'
+
+vi:
+  label: 'Bản đồ'
+  route:
+    summary: '{distance} theo đường bộ, khoảng {duration}'
+    failed: 'Không tìm thấy lộ trình giữa những địa điểm này.'
+
+id:
+  label: Peta
+  route:
+    summary: '{distance} melalui jalan, sekitar {duration}'
+    failed: 'Tidak ada rute yang dapat ditemukan antara tempat-tempat ini.'
+
+nl:
+  label: Kaart
+  route:
+    summary: '{distance} per weg, ongeveer {duration}'
+    failed: 'Er kon geen route tussen deze plaatsen worden gevonden.'
