@@ -1,6 +1,6 @@
 # symfony-geo-ds
 
-Version: 3.0.4
+Version: 3.0.5
 
 Design-system side of symfony-geo: an open source map with pins and a route
 
@@ -27,7 +27,7 @@ The suite includes packages for configuration management, file handling, prompts
 - wexample/symfony-design-system: >=37.0.0
 - wexample/symfony-geo: >=7.0.0
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.1.0
+- wexample/symfony-loader: >=23.2.0
 - wexample/symfony-forms: >=13.0.0
 - symfony/intl: ^7.4 || ^8.0
 
