@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-geo-ds",
   "description": "Design-system side of symfony-geo: an open source map with pins and a route",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -22,11 +22,11 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-design-system": ">=39.0.0",
-    "wexample/symfony-geo": ">=8.0.0",
-    "wexample/symfony-helpers": ">=18.0.0",
-    "wexample/symfony-loader": ">=25.0.0",
-    "wexample/symfony-forms": ">=14.0.0",
+    "wexample/symfony-design-system": ">=39.0.3",
+    "wexample/symfony-geo": ">=8.0.2",
+    "wexample/symfony-helpers": ">=18.0.2",
+    "wexample/symfony-loader": ">=25.0.1",
+    "wexample/symfony-forms": ">=14.0.2",
     "symfony/intl": "^7.4 || ^8.0"
   },
   "require-dev": {
