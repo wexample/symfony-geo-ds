@@ -1,6 +1,6 @@
 # symfony-geo-ds
 
-Version: 3.0.13
+Version: 3.0.14
 
 Design-system side of symfony-geo: an open source map with pins and a route
 
